@@ -1,0 +1,26 @@
+{
+  "name": "genpark-price-drop-notifier-alerts-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Price decrease alerts dispatcher.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "pricing"
+  ],
+  "inputs": {
+    "sku": {
+      "type": "string"
+    },
+    "percent_drop": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "alert_triggered": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
